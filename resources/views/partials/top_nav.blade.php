@@ -4,6 +4,7 @@
             <i class="fal fa-tv-retro"></i>
             <span class="top-nav__site-logo">{{ \config('other.title') }}</span>
         </a>
+        <p>aqui va el logo</p>
         <livewire:quick-search-dropdown />
     </div>
     <ul class="top-nav__main-menus" x-bind:class="expanded && 'mobile'">
